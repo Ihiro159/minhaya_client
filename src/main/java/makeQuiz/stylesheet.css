@@ -1,3 +1,42 @@
 h1 {
   color:aqua;
 }
+
+li{
+  list-style: none;
+}
+
+.mondai{
+  float:left;
+  margin-right:30px;
+}
+
+.setting{
+  height:200px;
+  background-color:bisque;
+  width:100%;
+  margin:auto 50px;
+  padding:0 20px;
+}
+
+.players{
+  height:100px;
+  background-color:aliceblue;
+  width:100%;
+  margin:auto 50px;
+  padding-top:30px;
+}
+
+.players2{
+  background-color:blue;
+  float:left;
+  margin-right:200px;
+  margin:auto 50px;
+  
+}
+
+.chat{
+  float:left;
+  margin-right:200px; 
+  margin:auto 50px;
+}
