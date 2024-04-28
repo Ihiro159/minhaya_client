@@ -6,30 +6,44 @@
 </haed>
 <body>
   <div class="setting">
-    <h1>出題問題</h1>
-    <h2>タイトル</h2>
+    <input type="button" value="戻る">
+    <h1>タイトル</h1>
     <li>
-      <h3 class ="mondai">ルール</h3>
-      <h3 class="mondai">問題数</h3>
-      <h3 class="mondai">ルームID</h3>
+      <h2 class = "mondai">問題</h2>
+      <h2 class = "mondai">正答率：X%</h2>
     </li>
+      <from action="" method ="post">
+        <textarea name="sakumon" rows="5" cols = "200"></textarea>
+      </from>
   </div>
-  <div class="players">
-    <h3>プレイヤー X人</h3>
-  </div>
-  
-  
-  <div class="players2">
-    <li>
-      <h3 class="players2">退出</h3>
-      <h3 class="players2">ルーム公開中</h3>
-    </li>
+  <div class="center">
+      <h2 >解答</h2>
+        <from action="" method ="post">
+          <textarea name="sakumon" rows="2" cols = "50"></textarea>
+        </from>
+           <li>
+            <h2 class="players">選択肢</h2>
+            <h2 class="players"><input type="button" value="自動生成"></h2>
+           </li>
+            
+          
+          <div class="sentakusi"><br><br>
+            <li>
+              <textarea name="sakumon" rows="2" cols = "3"></textarea>
+              <textarea name="sakumon" rows="2" cols = "3"></textarea>
+              <textarea name="sakumon" rows="2" cols = "3"></textarea>
+              <textarea name="sakumon" rows="2" cols = "3"></textarea>
+              <textarea name="sakumon" rows="2" cols = "3"></textarea>
+            </li>        
+          </div>
+             
   </div>
 
  <div >
   <li>
-    <h3 class="chat">メッセージ</h3>
-    <h3 class="chat">送信</h3>
+    <h3 class="chat"><input type="button" value="保存"></h3>
+    <h3 class="chat"><input type="button" value="投稿"></h3>
+    <h3 class="chat"><input type="button" value="削除"></h3>
   </li>
  </div>
  
