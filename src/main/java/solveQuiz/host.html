@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet_SolveHost.css">
+        <title>Client solve select host</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $.ajax({
+                    url: "api.php",
+                    dataType: "json",
+                    success: function(data) {
+                        // 取得したデータを処理するためのコード
+                        console.log(data);
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>
+            ルーム作成
+        </h1>
+        </button>
+        <select id="dropdown" onclick="displaySelectedItem()">
+            <option value="item1">-</option>
+            <option value="item2">国語</option>
+            <option value="item3">数学</option>
+            <option value="item4">英語</option>
+        </select>
+        
+
+        <script>
+            function displaySelectedItem() {
+                var selectElement = document.getElementById("dropdown");
+                var selectedOption = selectElement.options[selectElement.selectedIndex].text;
+            }
+        </script>
+    </body>
+</html>
