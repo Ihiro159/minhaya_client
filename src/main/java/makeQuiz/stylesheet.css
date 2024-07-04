@@ -1,3 +1,54 @@
-h1 {
-  color:aqua;
+.genre1{
+  color:blue;
 }
+li{
+  list-style: none;
+}
+
+.mondai{
+  float:left;
+  margin-right:200px;
+}
+
+.setting{
+  height:150px;
+  background-color:bisque;
+  width:100%;
+  margin:auto 50px;
+  padding-bottom: 100px;
+}
+
+
+.center{
+  height:150px;
+  background-color:aquamarine;
+  width:100%;
+  margin:auto 50px;
+  padding-bottom: 80px;
+}
+
+
+
+
+.players{
+  height:100px;
+  
+  width:10%;
+  margin:auto 0px;
+  float:left;
+  margin-right:0px;
+  padding:0px;
+  
+  
+}
+
+.sentakusi{
+ margin-right: 78%;
+}
+
+.chat{
+  float:left;
+  margin-right:200px; 
+  margin:auto 50px;
+}
+
